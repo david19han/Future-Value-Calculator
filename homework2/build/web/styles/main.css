@@ -10,19 +10,21 @@ body{
     padding-left: 2.5em;   
 }
 
+form br{
+    clear: both;
+}
+
 h1{
     color: navy;
-    margin-left: ;
 }
 
 label{
    text-align:right;
-    width:5em;
+    width:10em;
     float:left;
 }
 .pad_top{
     padding-top: .25em;
-    padding-left: ;
 }
 
 input[type=number] {

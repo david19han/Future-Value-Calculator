@@ -87,12 +87,12 @@ public class CalculatorServlet extends HttpServlet {
            int years = Integer.parseInt(request.getParameter("years"));
            
            User user = new User(amount, rate, years);
-           double value = user.getCalculatefuturevalue();
+           
            
            url = "/submit.jsp";
            
          request.setAttribute("user", user);
-         request.setAttribute("value", value);
+       
        }
        
        getServletContext()

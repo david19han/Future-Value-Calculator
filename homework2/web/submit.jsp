@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>CSC330 Homework 2</title>
+        <link rel ="stylesheet" href ="styles/main.css" type="text/css"/>
     </head>
     <body>
         <h1> Future Value Calculator </h1>
@@ -17,7 +18,7 @@
         
         
         <label> Investment Amount: </label>
-        <span> <jsp:getProperty name = "user" property= "amount"/></span><br>
+        <span> <jsp:getProperty name = "user" property= "currencyamount"/></span><br>
         <label> Yearly Interest Rate: </label>
         <span> <jsp:getProperty name = "user" property= "rate"/></span><br>
         <label> Number of Years: </label>
@@ -25,7 +26,7 @@
         <label> Future Value: </label>
         
         
-         <span> <jsp:getProperty name = "user" property= "calculatefuturevalue"/></span><br>
+         <span> <jsp:getProperty name = "user" property= "currencyfuturevalue"/></span><br>
         
         
         
