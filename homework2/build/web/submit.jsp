@@ -13,7 +13,9 @@
     </head>
     <body>
         <h1> Future Value Calculator </h1>
-        <jsp:useBean id="user" scope="request" class= "edu.elon.calculator"/>
+        <jsp:useBean id="user" scope="request" class= "edu.elon.calculator.User"/>
+        
+        
         <label> Investment Amount: </label>
         <span> <jsp:getProperty name = "user" property= "amount"/></span><br>
         <label> Yearly Interest Rate: </label>
@@ -23,7 +25,7 @@
         <label> Future Value: </label>
         
         
-        <span><useBean id="value" scope="request" </span><br>
+         <span> <jsp:getProperty name = "user" property= "calculatefuturevalue"/></span><br>
         
         
         

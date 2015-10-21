@@ -52,8 +52,8 @@ public class User implements Serializable{
         this.years = years;
     }
     
-    public double calculateFutureValue(){
-        double futurevalue = amount*Math.pow((1 + rate),years);
+    public double getCalculatefuturevalue(){
+        double futurevalue = amount*Math.pow((1 + rate*.01),years);
         return futurevalue;
 }
     
